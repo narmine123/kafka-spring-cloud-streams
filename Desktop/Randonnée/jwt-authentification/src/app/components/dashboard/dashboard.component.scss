@@ -1,0 +1,24 @@
+.hike-photos-container {
+  text-align: center; /* Centre le texte et les images dans le conteneur */
+}
+
+.hike-photos-container h2 {
+  margin-bottom: 20px; /* Ajoute un espace entre le titre et les images */
+}
+
+.photo-item {
+  display: inline-block; /* Permet d'afficher les images côte à côte */
+  margin: 10px; /* Ajoute un espace autour des images */
+}
+
+.hike-photos-container img {
+  width: 250px; /* Ajustez la largeur selon vos besoins */
+  height: auto; /* Conserve les proportions de l'image */
+  object-fit: cover; /* Assure que l'image couvre l'espace sans déformation */
+  border-radius: 8px; /* Facultatif : pour arrondir les coins des images */
+  transition: transform 0.3s ease; /* Ajoute une transition pour l'effet de mouvement */
+}
+
+.hike-photos-container img:hover {
+  transform: scale(1.05); /* Agrandit légèrement l'image au survol */
+}

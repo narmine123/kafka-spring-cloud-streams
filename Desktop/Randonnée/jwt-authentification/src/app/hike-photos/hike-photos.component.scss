@@ -1,0 +1,15 @@
+.hike-photos-container {
+  text-align: center; /* Centre le texte et les images dans le conteneur */
+}
+
+.hike-photos-container h2 {
+  margin-bottom: 20px; /* Ajoute un espace entre le titre et les images */
+}
+
+.hike-photos-container img {
+  width: 150px; /* Ajustez la largeur selon vos besoins */
+  height: auto; /* Conserve les proportions de l'image */
+  object-fit: cover; /* Assure que l'image couvre l'espace sans déformation */
+  border-radius: 8px; /* Facultatif : pour arrondir les coins des images */
+  margin: 5px; /* Ajoute un espace autour des images */
+}
